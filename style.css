@@ -1,0 +1,477 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Noto Sans, sans-serif;
+    overflow-x: hidden;
+}
+
+header .ppp
+{
+    margin: 0;
+    padding: 25px 0 25px 10px;
+    font-size: 2em;
+}
+header ul
+{
+    position: absolute;
+    display: flex;
+    right: 2%;
+    list-style: none;
+    margin: 0;
+    padding: 34px;
+    font-size: 1.2em;
+}
+header a
+{
+    text-decoration: none;
+    margin-right: 10px;
+    color: black;
+}
+header #navi:hover
+{
+    transition: 0.5s;
+    color: #a9883e;
+}
+.Border
+{
+    border-right: 2px solid black;
+    padding-right: 10px;
+}
+.Grp
+{
+    display: flex;
+}
+#Orange
+{
+    width: 25px;
+    height: 25px;
+    background: orange;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+#main
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+}
+.Spart1 img
+{
+    border-radius: 50%;
+}
+.Spart2
+{
+    margin-left: 5%;
+}
+#P1
+{
+    padding: 10px 70px 10px 0;
+}
+#P1 h1
+{
+    font-size: 3.5em;
+    margin: 0;
+}
+#Pp1
+{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+#Pp2
+{
+    font-size: 1.1em;
+    width: 90%;
+    text-align: justify;
+}
+.Circle
+{
+    display: flex;
+    margin-top: 5%;
+}
+.Circle a
+{
+    text-decoration: none;
+}
+.Resume
+{
+    background-color: #eea302;
+    width: 115px;
+    height: 115px;  
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-right: 25px;
+    color: black;
+}
+.Contact
+{
+    background-color: #80d8da;
+    width: 115px;
+    height: 115px;  
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: black;
+}
+.Resume:hover, .Contact:hover
+{
+    transition: 0.5s;
+    background-color: white;
+}
+
+footer
+{
+    margin-top: 100px;
+}
+footer ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+footer ul div
+{
+    border-top: 2px solid gray;
+    padding: 20px;
+}
+.FootDiv
+{
+    padding-right: 10%;
+}
+.Ftitle
+{
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+.Twt
+{
+    display: flex;
+    align-items: center;
+}
+.Twt img
+{
+    margin-left: 5px;
+}
+#Rplace
+{
+    padding-top: 10.6px;
+}
+#Replace
+{
+    padding-top: 30.6px;
+}
+
+/*---------------------------------------------------------------------------------*/
+
+.SecRes
+{
+    display: flex;
+    flex-direction: column;
+}
+.Rpart1
+{
+    margin-top: 5%;
+}
+.Rpart2
+{
+    margin-top: 3%;
+}
+.Rpart3
+{
+    margin-top: 3%;
+}
+.Resumer
+{
+    font-size: 3em;
+    margin: 2% 0 0 7%;
+}
+.bordure
+{
+    width: 90%;
+    margin-left: 5%;
+    border-bottom: 1px solid #afafaf;
+}
+#MainRpart1
+{
+    display: flex;
+    width: 95%;
+}
+#MainRpart2
+{
+    display: flex;
+    width: 95%;
+}
+#MainRpart3
+{
+    display: flex;
+    width: 95%;
+}
+#ExpStg
+{
+    font-size: 1.5em;
+    margin-left: 10%;
+}
+.InfoStg
+{
+    width: 330px;
+    text-align: justify;
+}
+.Company
+{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.School
+{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.listeStg
+{
+    position: absolute;
+    margin-top: 10px;
+    right: 15%;
+}
+.listeStg li
+{
+    display: flex;
+}
+.listeStg2
+{
+    position: absolute;
+    margin-top: 10px;
+    right: 15%;
+}
+.listeStg2 li
+{
+    display: flex;
+}
+.listeStg3
+{
+    position: absolute;
+    margin-top: 10px;
+    right: 15%;
+}
+.listeStg3 li
+{    
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    margin-top: 25px;
+    width: 330px;
+    text-align: justify;
+    font-size: 1.2em;
+}
+.Vide
+{
+    height: 225px;
+}
+.Vide2
+{
+    height: 115px;
+}
+.semaine
+{
+    font-weight: initial;
+    font-style: italic;
+    margin-left: 2%;
+
+}
+.Date
+{
+    margin-right: 20px;
+    font-size: 1.2em;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+}
+.Years
+{
+    margin-right: 20px;
+    font-size: 1.2em;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+}
+
+/*---------------------------------------------------------------------------------*/
+
+.Contacter
+{
+    font-size: 3em;
+    margin: 3% 0 0 10%;
+}
+.ListeContact
+{
+    list-style: none;
+    margin: 5% 0 0 10%;
+    padding: 0;
+}
+.ListeContact li
+{
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+    padding-bottom: 1%;
+}
+.ListeContact img
+{
+    margin-right: 1%;
+}
+.sep
+{
+    margin-bottom: 3%;
+}
+#Link
+{
+    color: black;
+}
+#Link:hover
+{
+    transition: 0.5s;
+    text-decoration: none;
+    color: #a9883e;
+}
+
+/*---------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 850px) {
+    #main
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    #P1
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        padding: 0;
+    }
+    .Spart2
+    {
+        margin-left: 0;
+    }
+    .Circle
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #Pp2
+    {
+        text-align: center;
+    }
+    footer
+    {
+        margin-top: 0;
+    }
+    footer ul
+    {
+        flex-direction: column;
+    }
+    footer ul div
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-top: none;
+        padding: 0;
+    }
+    .FootDiv
+    {
+        padding: 0;
+    }
+    .Ftitle
+    {
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+
+    header ul
+    {
+        text-decoration: underline;
+        right: 0;
+        flex-direction: column;
+        align-items: flex-end;
+        padding-right: 2%;
+    }
+    .Scol
+    {
+        padding-top: 5%;
+    }
+    .Border
+    {
+        border-right: none;
+        padding: 0;
+        margin-bottom: 10%;
+    }
+    #MarginPlus
+    {
+        margin-bottom: 20px;
+    }
+    .Resumer
+    {
+        padding-top: 45px;
+    }
+    .bordure
+    {
+        border-bottom: none;
+    }
+    #MainRpart1
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .listeStg
+    {
+        left: 7%;      
+    }
+    #MainRpart2
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .listeStg2
+    {
+        left: 7%;
+    }
+    #MainRpart3
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .listeStg3
+    {
+        left: 7%;
+        margin-top: 125px;
+    }
+    .Comp
+    {
+        padding-top: 50px;
+    }
+    .semaine
+    {
+        display: none;
+    }
+    .InfoStg
+    {
+        width: 100%;
+    }
+    
+    .FootCont
+    {
+        margin-top: 6%;
+    }
+}
