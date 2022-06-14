@@ -443,6 +443,7 @@ footer ul div
     {
         display: flex;
         flex-direction: column;
+        margin-top: 50px;
     }
     .listeStg2
     {
@@ -452,6 +453,7 @@ footer ul div
     {
         display: flex;
         flex-direction: column;
+        margin-top: 50px;
     }
     .listeStg3
     {
